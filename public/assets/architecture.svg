@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" fill="none" role="img" aria-label="System Architecture Diagram - AMANAH AI">
+  <rect width="920" height="420" rx="16" fill="#FAF8F3" stroke="#D6D3C9" stroke-width="1.5"/>
+  <!-- Header -->
+  <rect x="24" y="20" width="872" height="46" rx="10" fill="#064E3B"/>
+  <text x="44" y="48" fill="#FAF8F3" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">ARSITEKTUR SISTEM AMANAH AI (PROTOTIPE AKTIF VS. RENCANA PENGEMBANGAN)</text>
+  <text x="876" y="48" text-anchor="end" fill="#A7F3D0" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="12">ARCHITECTURE.SVG</text>
+
+  <!-- Left Zone: Implemented in Prototype (Browser Sandbox) -->
+  <g transform="translate(24, 84)">
+    <rect width="580" height="312" rx="12" fill="#FFFFFF" stroke="#047857" stroke-width="2"/>
+    <rect x="16" y="16" width="548" height="34" rx="8" fill="#ECFDF5"/>
+    <text x="28" y="38" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">DIIMPLEMENTASIKAN DALAM PROTOTIPE SAAT INI (100% LOKAL DI BROWSER)</text>
+
+    <!-- Presentation Layer -->
+    <rect x="20" y="64" width="540" height="68" rx="8" fill="#FAF8F3" stroke="#D6D3C9"/>
+    <text x="34" y="86" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Lapisan Antarmuka Pengguna (React + TypeScript SPA)</text>
+    <text x="34" y="106" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Dashboard · Editor Analisis Pesan · Penyorot Bukti [start..end] · Daftar Periksa · Pusat Pembelajaran</text>
+    <text x="34" y="122" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="10.5">Sanitasi Plain-Text (Tanpa Eksekusi HTML/JS atau Pemanggilan URL)</text>
+
+    <!-- Rule Engine Layer -->
+    <rect x="20" y="146" width="540" height="82" rx="8" fill="#FAF8F3" stroke="#047857"/>
+    <text x="34" y="168" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Mesin Analisis Deterministik &amp; Kontekstual (Client-Side Engine)</text>
+    <text x="34" y="188" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">• 7 Kategori Aturan Heuristik Terkonfigurasi (Urgensi, Biaya Muka, Kredensial, Luar Platform, dll.)</text>
+    <text x="34" y="205" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">• Detektor Konteks Negasi &amp; Edukasi Anti-Scam (Mencegah Alarm Palsu pada Pesan Edukasi)</text>
+    <text x="34" y="220" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="10.5">Output: Outcome A (Ditemukan) | Outcome B (Tidak Ditemukan) | Outcome C (Minim Info) | Outcome D (Tidak Valid)</text>
+
+    <!-- Session State Layer -->
+    <rect x="20" y="240" width="540" height="56" rx="8" fill="#FAF8F3" stroke="#D6D3C9"/>
+    <text x="34" y="262" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Manajemen State Sesi Sementara (In-Memory Browser State)</text>
+    <text x="34" y="282" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Riwayat sesi sementara, progres daftar periksa, dan skor kuis (Dapat dihapus penuh kapan saja)</text>
+  </g>
+
+  <!-- Right Zone: Planned / Proposed Future Extensions -->
+  <g transform="translate(624, 84)">
+    <rect width="272" height="312" rx="12" fill="#F3F0E6" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <rect x="16" y="16" width="240" height="34" rx="8" fill="#E5E7EB"/>
+    <text x="28" y="38" fill="#374151" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12">RENCANA ARSITEKTUR MASA DEPAN</text>
+
+    <rect x="16" y="64" width="240" height="70" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <text x="28" y="86" fill="#374151" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12">Pembaruan Aturan Terkurasi</text>
+    <text x="28" y="104" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Distribusi paket aturan heuristik</text>
+    <text x="28" y="120" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">terbaru yang ditinjau pakar literasi.</text>
+
+    <rect x="16" y="148" width="240" height="70" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <text x="28" y="170" fill="#374151" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12">Asisten NLP Lokal Opsional</text>
+    <text x="28" y="188" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Klasifikasi semantik dengan</text>
+    <text x="28" y="204" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">persetujuan eksplisit (Opt-In).</text>
+
+    <rect x="16" y="232" width="240" height="64" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <text x="28" y="254" fill="#374151" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12">Kemitraan Edukasi Kampus</text>
+    <text x="28" y="272" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Modul kurikulum literasi mahasiswa</text>
+    <text x="28" y="286" fill="#6B7280" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">(Belum diaktifkan pada prototipe).</text>
+  </g>
+</svg>

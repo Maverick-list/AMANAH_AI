@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" fill="none" role="img" aria-label="Workflow Diagram - AMANAH AI">
+  <rect width="960" height="320" rx="16" fill="#FAF8F3" stroke="#D6D3C9" stroke-width="1.5"/>
+  <!-- Title Bar -->
+  <rect x="24" y="20" width="912" height="46" rx="10" fill="#064E3B"/>
+  <text x="44" y="48" fill="#FAF8F3" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">ALUR KERJA SISTEM (7 TAHAP PEMROSESAN TRANSPARAN)</text>
+  <text x="916" y="48" text-anchor="end" fill="#A7F3D0" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="12">WORKFLOW.SVG</text>
+
+  <!-- 7 Steps Horizontal Pipeline -->
+  <!-- Step 1 -->
+  <g transform="translate(24, 88)">
+    <rect width="118" height="148" rx="10" fill="#FFFFFF" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#ECFDF5" stroke="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">01</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Input Teks</text>
+    <text x="14" y="84" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Pengguna</text>
+    <text x="14" y="100" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">memasukkan</text>
+    <text x="14" y="116" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">teks tanpa PII</text>
+  </g>
+  <path d="M144 162H154" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(156, 88)">
+    <rect width="118" height="148" rx="10" fill="#FFFFFF" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#ECFDF5" stroke="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">02</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Validasi Input</text>
+    <text x="14" y="84" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Cek batas 5.000</text>
+    <text x="14" y="100" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">karakter &amp;</text>
+    <text x="14" y="116" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">kecukupan teks</text>
+  </g>
+  <path d="M276 162H286" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(288, 88)">
+    <rect width="118" height="148" rx="10" fill="#FFFFFF" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#ECFDF5" stroke="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">03</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Mesin Aturan</text>
+    <text x="14" y="84" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Evaluasi pola</text>
+    <text x="14" y="100" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">deterministik &amp;</text>
+    <text x="14" y="116" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">konteks negasi</text>
+  </g>
+  <path d="M408 162H418" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(420, 88)">
+    <rect width="118" height="148" rx="10" fill="#FFFFFF" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#ECFDF5" stroke="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">04</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Ekstraksi Bukti</text>
+    <text x="14" y="84" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Catat indeks</text>
+    <text x="14" y="100" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">karakter presisi</text>
+    <text x="14" y="116" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">[start..end]</text>
+  </g>
+  <path d="M540 162H550" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 5 -->
+  <g transform="translate(552, 88)">
+    <rect width="118" height="148" rx="10" fill="#FFFFFF" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#ECFDF5" stroke="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">05</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Penjelasan</text>
+    <text x="14" y="84" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Uraikan alasan,</text>
+    <text x="14" y="100" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">inferensi &amp;</text>
+    <text x="14" y="116" fill="#4B5563" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">batasan sistem</text>
+  </g>
+  <path d="M672 162H682" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 6 -->
+  <g transform="translate(684, 88)">
+    <rect width="118" height="148" rx="10" fill="#ECFDF5" stroke="#047857" stroke-width="1.8"/>
+    <circle cx="28" cy="28" r="14" fill="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#FAF8F3" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">06</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Daftar Periksa</text>
+    <text x="14" y="84" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Panduan aksi</text>
+    <text x="14" y="100" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">verifikasi</text>
+    <text x="14" y="116" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">mandiri</text>
+  </g>
+  <path d="M804 162H814" stroke="#047857" stroke-width="2"/>
+
+  <!-- Step 7 -->
+  <g transform="translate(816, 88)">
+    <rect width="120" height="148" rx="10" fill="#ECFDF5" stroke="#047857" stroke-width="1.8"/>
+    <circle cx="28" cy="28" r="14" fill="#047857"/>
+    <text x="28" y="32" text-anchor="middle" fill="#FAF8F3" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">07</text>
+    <text x="14" y="64" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12.5">Literasi Digital</text>
+    <text x="14" y="84" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Modul belajar</text>
+    <text x="14" y="100" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">&amp; latihan</text>
+    <text x="14" y="116" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">pemahaman</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="24" y="254" width="912" height="44" rx="8" fill="#F3F0E6" stroke="#D6D3C9"/>
+  <text x="44" y="281" fill="#064E3B" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12.5">Seluruh langkah 01–07 berjalan secara deterministik di dalam peramban (client-side) tanpa mengeksekusi tautan atau mengirim data keluar.</text>
+</svg>

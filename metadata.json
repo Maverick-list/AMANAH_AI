@@ -1,0 +1,6 @@
+{
+  "name": "AMANAH AI",
+  "description": "Verify Before You Trust. Understand Before You Transact. Digital Transaction Trust-Awareness and Literacy Platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
